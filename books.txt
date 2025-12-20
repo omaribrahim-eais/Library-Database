@@ -5,3 +5,6 @@
 4|how to play chess|OMar khaled
 6|the power of positive thinking|David
 2|the power of positive thinking|david Washington
+3|Emotional Intelligence|Daniel Goleman
+4|How We Sleep|Mathew Walker
+5|How We Sleep|Mathew Walker
