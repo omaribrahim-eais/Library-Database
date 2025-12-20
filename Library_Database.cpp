@@ -25,7 +25,7 @@ struct Loan {
     char due_date[11]; // YYYY-MM-DD
 };
 
-//  FILE OPERATIONS
+
 void loadBooks(Book books[], int* count) {
     ifstream file("books.txt");
     *count = 0;
@@ -159,7 +159,7 @@ int compareStrings(char a[], char b[]) {
 // KAREEM'S PART 
 
 
-//SEARCHING 
+
 void searchBookByTitle(Book books[], int count) {
     char search[50];
     cin.ignore();
@@ -179,7 +179,7 @@ void searchBookByTitle(Book books[], int count) {
         cout << "No book with this title.\n";
 }
 
-//SORTING 
+
 void sortBooksByTitle(Book books[], int count) {
     Book temp;
     for (int i = 0; i < count - 1; i++) {
@@ -207,7 +207,7 @@ void listBooks(Book books[], int count) {
     }
 }
 
-// LOAN OPERATIONS 
+
 int nextLoanID(Loan loans[], int loan_count) {
     int max = 0;
     for (int i = 0; i < loan_count; i++)
@@ -275,14 +275,14 @@ void returnBook(Loan loans[], int* loan_count) {
     cout << "Loan not found.\n";
 }
 
-//  MENU 
+ 
 void showMenu() {
     cout << "\n1) Load  2) Save  3) Add  4) Update  5) Delete\n";
     cout << "6) List  7) Search Title  8) Sort Title\n";
     cout << "9) Checkout  10) Return  0) Exit\nChoose: ";
 }
 
-//  MAIN 
+ 
 int main() {
     Book books[MAX_BOOKS];
     Loan loans[MAX_LOANS];
@@ -325,6 +325,7 @@ int main() {
 //   4. Use the Error List window to view errors
 //   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
 //   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+
 
 
 
